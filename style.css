@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');  
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(to bottom, #fdf904 0%, #a5c203b2 100%);
+ background-color: #b4eeb4;
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+    
+}
+h2 {  
+    margin: 10px 0;  
+    color:#e0dbd5;
+    letter-spacing: 2px;
+}   
+h5{
+    color: #e0dbd5;
+    letter-spacing: 2px;
+}
+h4 {  
+    color:#e0dbd5;  
+    letter-spacing: 2px;
+}  
+.card-container {  
+     background-color:#0a75ad ;   
+    border-radius: 10px;  
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);  
+    color: #c5c7d1;  
+    padding-top: 30px;  
+    position: relative;  
+    width: 350px;  
+    max-width: 100%;  
+    text-align: center;  
+}  
+.card-container .pro {  
+    color: #0d34e3;  
+    background-color: #f6be32;  
+    border-radius: 4px;  
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 3px 7px;  
+    position: absolute;  
+    top: 30px;  
+    left: 30px;  
+}  
+.card-container .round {  
+    border: 5px solid #f6be32;  
+    border-radius: 50%;  
+    padding: 7px;  
+}  
+
+.card-container .round:hover{
+    border: 5px solid #46c3f2;
+    border-radius: 50%;
+    padding: 7px;
+}
+button.primary {  
+    margin-top: 10px ;
+    background-color: #b6fcd5;  
+    border: 1px solid #03BFCB;  
+    border-radius: 8px;  
+    color: #231E39;  
+    font-family: Montserrat, sans-serif;  
+    font-weight: 500;  
+    padding: 10px 25px;  
+}  
+button.primary.ghost {  
+    margin-left: 40px;
+    background-color: transparent;  
+    color: #b6fcd5;  
+}  
+button.primary.ghost strong{
+    color: #f6546a;
+    font-weight:bolder;
+}
+
+
+.skills {  
+    color:#c6f1ba;
+    background-color: #46c3f2; 
+    text-align: left;  
+    padding: 15px;  
+    margin-top: 30px;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}  
+.skills h5{
+    color: #0a75ad;
+}
+.skills ul {  
+    list-style-type: none;  
+    margin: 5px;  
+    padding: 0;  
+}  
+.skills ul li {  
+    border: 1px solid #0a75ad ;  
+    border-radius: 6px;  
+    display: inline-block;  
+    font-size: 12px;  
+    margin: 3px 5px 5px 3px;  
+    padding: 7px;  
+}  
+
+.skills ul li:hover{
+    color:#c6f1ba;
+    background-color: #0a75ad  ;
+    border: 1px solid #c6f1ba ;  
+}
+
+  
+
